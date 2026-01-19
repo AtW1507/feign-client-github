@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com</groupId>
-    <artifactId>zadanie02</artifactId>
+    <artifactId>FeignClientGithub</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>zadanie2.02</name>
-    <description>zadanie2.02</description>
+    <name>FeignClientGithub</name>
+    <description>FeignClientGithub</description>
     <url/>
     <licenses>
         <license/>
