@@ -1,5 +1,11 @@
-package com.zadanie02;
+package com.zadanie02.service;
 
+import com.zadanie02.client.GithubClient;
+import com.zadanie02.dto.response.BranchInfo;
+import com.zadanie02.dto.response.GithubResponseBranchesDto;
+import com.zadanie02.dto.response.GithubResponseRepositoriesDto;
+import com.zadanie02.dto.response.RepositoryInfo;
+import com.zadanie02.error.UserNotFoundException;
 import feign.FeignException;
 import org.springframework.stereotype.Service;
 

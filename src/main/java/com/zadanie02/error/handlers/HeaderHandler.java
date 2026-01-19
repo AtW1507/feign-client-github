@@ -1,5 +1,6 @@
-package com.zadanie02;
+package com.zadanie02.error.handlers;
 
+import com.zadanie02.error.ErrorHeader;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.zadanie02;
+package com.zadanie02.error;
 
 import org.springframework.http.HttpStatus;
 

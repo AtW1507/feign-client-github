@@ -1,5 +1,7 @@
-package com.zadanie02;
+package com.zadanie02.controller;
 
+import com.zadanie02.dto.response.RepositoryInfo;
+import com.zadanie02.service.GithubService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -7,11 +9,11 @@ import java.util.List;
 
 @RestController
 @RequestMapping("users/")
-public class Controller {
+public class MyApiController {
 
     private final GithubService githubService;
 
-    public Controller(final GithubService githubService) {
+    public MyApiController(final GithubService githubService) {
         this.githubService = githubService;
     }
 

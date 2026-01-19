@@ -1,4 +1,4 @@
-package com.zadanie02;
+package com.zadanie02.dto.response;
 
 import java.util.List;
 

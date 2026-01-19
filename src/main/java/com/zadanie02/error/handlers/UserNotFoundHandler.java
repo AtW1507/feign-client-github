@@ -1,5 +1,8 @@
-package com.zadanie02;
+package com.zadanie02.error.handlers;
 
+import com.zadanie02.service.GithubService;
+import com.zadanie02.error.ErrorUserNotFound;
+import com.zadanie02.error.UserNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
