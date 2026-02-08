@@ -1,7 +1,0 @@
-package com.zadanie02.model;
-
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
-@JsonIgnoreProperties(ignoreUnknown = true)
-public record Commit(String sha) {
-}
